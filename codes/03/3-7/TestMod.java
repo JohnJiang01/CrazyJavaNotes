@@ -15,5 +15,7 @@ public class TestMod
     System.out.println("0对5.0求余的结果是：" + 0 % 5.0);
     //输出非数：NaN
     System.out.println("0对0.0求余的结果是：" + 0 % 0.0);
+    //下面代码将出现异常 java.lang.ArithmeticException: / by zero
+    System.out.println("-5对0求余的结果是：" + -5 % 0);
   }
 }
